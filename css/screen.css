@@ -257,3 +257,32 @@ a:focus {
     font-weight: 700;
     src: url("../font/Inter-Bold.woff2") format("woff2");
 }
+
+/* 
+    components: Author
+*/
+
+.c-author{
+    display: flex;
+    align-items: center;
+}
+.c-author__image{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+.c-author__name,
+.c-author__meta{
+    margin-bottom: 0;
+}
+.c-author__meta{
+    font-size: 14px;
+    font-family: "Inter", "Helvetic Neue", helvetica, Arial, sans-serif;
+    line-height: 24px;
+}
+.c-author__name{
+    font-size: 16px;
+    line-height: 24px;
+}
+
